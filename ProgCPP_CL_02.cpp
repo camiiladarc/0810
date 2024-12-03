@@ -1,12 +1,16 @@
 #include <iostream>
 using namespace std;
-int main(){
+int main() {
+
   int idade;
   float altura;
-  count << "Insira sua idade:";
+
+  cout << "Insira sua idade:";
+  cin >> idade;
+  cout << "Insira sua altura:";
   cin >> altura;
-  count << "Insira sua altura:"
-    cin >> altura;
-  cout << "Sua altura é " << idade << " e sua idade é: " << altura << endl;
-  return 0
+
+  cout << "Sua idade é " << idade << " e sua altura é: " << altura << endl;
+  return 0;
+  
 }
